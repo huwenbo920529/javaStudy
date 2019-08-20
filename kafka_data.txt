@@ -1,0 +1,7 @@
+{  "@timestamp": "2019-05-13T08:15:14.923Z",  "@metadata": {    "beat": "filebeat",    "type": "doc",    "version": "6.6.0",    "topic": "systemLog_iop_topic_dev", "es-index": "es-index-systemlog-iop", "es-type": "es-type-systemlog-iop"  },  "fields": {
+    "ip": "10.2.10.178",
+    "log_topic": "systemlog_xxx-conf_topic_dev",
+  "log_index": "systemlog_xxx-conf_index_dev"
+
+  },
+ "host": {    "name": "luojundeMacBook-Pro.local"  },  "message": "2019-05-13 16:15:14.174 ERROR [http-nio-8889-exec-10] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() \n\tat AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  "source": "/opt/logs/error/agent-test-serverA.error.log",  "offset": 267206,  "log": {    "flags": [      "multiline"    ],    "file": {      "path": "/opt/logs/error/agent-test-serverA.error.log"    }  },  "input": {    "type": "log"  },  "prospector": {    "type": "log"  },  "beat": {    "name": "luojundeMacBook-Pro.local",    "hostname": "luojundeMacBook-Pro.local",    "version": "6.6.0"  }}
